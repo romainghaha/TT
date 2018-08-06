@@ -12,6 +12,7 @@ target 'TT' do
   pod 'Masonry'
   pod 'SDWebImage'
   pod 'MBProgressHUD'
+  pod 'FMDB'
 
   target 'TTTests' do
     inherit! :search_paths

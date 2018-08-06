@@ -7,6 +7,7 @@
 //
 
 #import "TTNavigationController.h"
+#import "TTNavigationBar.h"
 
 @interface TTNavigationController ()
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    TTNavigationBar *rootNav = [[TTNavigationBar alloc] init];
+    [self setValue:rootNav forKey:@"NavigationBar"];
+    
 }
 
 - (void)didReceiveMemoryWarning {

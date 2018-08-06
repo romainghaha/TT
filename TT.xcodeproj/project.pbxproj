@@ -17,6 +17,7 @@
 		4FECC1E6211848ED00F32927 /* TTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FECC1E5211848ED00F32927 /* TTNavigationController.m */; };
 		4FECC1E9211850A300F32927 /* TTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FECC1E8211850A300F32927 /* TTTabBar.m */; };
 		4FECC1EE21185BF900F32927 /* TTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FECC1ED21185BF900F32927 /* TTBaseViewController.m */; };
+		4FECC1F1211867C100F32927 /* TTNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FECC1F0211867C100F32927 /* TTNavigationBar.m */; };
 		B304E33CAE94C8CE13F3963F /* libPods-TTTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1EFBD0490A2142A903A9780 /* libPods-TTTests.a */; };
 		CC05EFACEDE6AD290B7943B4 /* libPods-TT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F43B436BE4DCE9077229808 /* libPods-TT.a */; };
 		E7508548BBABC9795035BE63 /* libPods-TTUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A0F865690CC8B3DCA2DDB86 /* libPods-TTUITests.a */; };
@@ -63,6 +64,8 @@
 		4FECC1E8211850A300F32927 /* TTTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTabBar.m; sourceTree = "<group>"; };
 		4FECC1EC21185BF900F32927 /* TTBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTBaseViewController.h; sourceTree = "<group>"; };
 		4FECC1ED21185BF900F32927 /* TTBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTBaseViewController.m; sourceTree = "<group>"; };
+		4FECC1EF211867C100F32927 /* TTNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTNavigationBar.h; sourceTree = "<group>"; };
+		4FECC1F0211867C100F32927 /* TTNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTNavigationBar.m; sourceTree = "<group>"; };
 		585856FDB797CE342747D2C9 /* Pods-TTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTTests/Pods-TTTests.release.xcconfig"; sourceTree = "<group>"; };
 		6719815277EF814CDB1FDE52 /* Pods-TTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTTests/Pods-TTTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7AF6234D8D3F7047B99DDA27 /* Pods-TT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TT.release.xcconfig"; path = "Pods/Target Support Files/Pods-TT/Pods-TT.release.xcconfig"; sourceTree = "<group>"; };
@@ -243,10 +246,12 @@
 			children = (
 				4FECC1E12118488B00F32927 /* TTTabBarController.h */,
 				4FECC1E22118488B00F32927 /* TTTabBarController.m */,
-				4FECC1E4211848ED00F32927 /* TTNavigationController.h */,
-				4FECC1E5211848ED00F32927 /* TTNavigationController.m */,
 				4FECC1E7211850A300F32927 /* TTTabBar.h */,
 				4FECC1E8211850A300F32927 /* TTTabBar.m */,
+				4FECC1E4211848ED00F32927 /* TTNavigationController.h */,
+				4FECC1E5211848ED00F32927 /* TTNavigationController.m */,
+				4FECC1EF211867C100F32927 /* TTNavigationBar.h */,
+				4FECC1F0211867C100F32927 /* TTNavigationBar.m */,
 			);
 			path = RootClass;
 			sourceTree = "<group>";
@@ -491,6 +496,7 @@
 				4FECC1E32118488B00F32927 /* TTTabBarController.m in Sources */,
 				4FECC1B52118437000F32927 /* main.m in Sources */,
 				4FECC1E9211850A300F32927 /* TTTabBar.m in Sources */,
+				4FECC1F1211867C100F32927 /* TTNavigationBar.m in Sources */,
 				4FECC1EE21185BF900F32927 /* TTBaseViewController.m in Sources */,
 				4FECC1A72118436F00F32927 /* AppDelegate.m in Sources */,
 				4FECC1E6211848ED00F32927 /* TTNavigationController.m in Sources */,
